@@ -50,12 +50,14 @@ public class LuckySevenGame {
                 System.out.println("New game star!");
 
             }
+            // While loop star
         } while (answer.equals("y") && money > 0);
         {
-
+            // if user want to stop game
             if (answer.equals("n")) {
                 System.out.println("Kiitos kun pelasit!");
 
+                // if money is over
             } else {
                 System.out.println("Rahasi loppuivat!");
             }
